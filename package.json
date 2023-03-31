@@ -1,0 +1,14 @@
+{
+  "name": "http-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "mkdir -p build/standalone/node_modules/next && cp server.js build/standalone/"
+  },
+  "dependencies": {
+    "next": "latest"
+  },
+  "author": "",
+  "license": "ISC"
+}
