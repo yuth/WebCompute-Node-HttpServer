@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "mkdir -p build/standalone/node_modules/next && cp server.js build/standalone/"
+    "build": "mkdir -p build/standalone/node_modules/next && mkdir -p build/standalone/build/server && cp server.js build/standalone/"
   },
   "dependencies": {
     "next": "latest"
